@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="DBFM_WatchKit_1_App" customModuleProvider="target">
+                    <items>
+                        <group width="100" height="100" alignment="center" radius="10" id="Ucb-dT-dke">
+                            <items>
+                                <imageView width="100" height="100" alignment="left" id="kiq-x7-ggS"/>
+                            </items>
+                        </group>
+                        <label width="1" alignment="center" text="歌曲-歌手" textAlignment="center" id="vhG-NC-BTE">
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <group width="1" alignment="left" spacing="10" id="rs7-UP-bcW">
+                            <items>
+                                <button width="20" height="20" alignment="center" verticalAlignment="center" backgroundImage="btnPre" id="0kF-t7-Je8">
+                                    <connections>
+                                        <action selector="onPre" destination="AgC-eL-Hgc" id="nEo-mh-EvA"/>
+                                    </connections>
+                                </button>
+                                <button width="25" height="25" alignment="center" verticalAlignment="center" backgroundImage="btnPause" id="mjN-pi-4O9">
+                                    <connections>
+                                        <action selector="onPlay" destination="AgC-eL-Hgc" id="MWh-OK-STC"/>
+                                    </connections>
+                                </button>
+                                <button width="20" height="20" alignment="center" verticalAlignment="center" backgroundImage="btnNext" id="Vft-JF-9BF">
+                                    <connections>
+                                        <action selector="onNext" destination="AgC-eL-Hgc" id="qmQ-Co-HcF"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <menu key="menu" id="BGa-Iq-eOC">
+                        <items>
+                            <menuItem title="歌曲" icon="info" id="8jo-iP-DZV" userLabel="歌曲">
+                                <connections>
+                                    <action selector="onShowSongs" destination="AgC-eL-Hgc" id="Tt6-6P-sjF"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="频道" icon="more" id="ZQH-Em-tow" userLabel="频道">
+                                <connections>
+                                    <action selector="onShowChannel" destination="AgC-eL-Hgc" id="ITU-zK-s0m"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="取消" icon="block" id="eUe-n1-NE6" userLabel="取消">
+                                <connections>
+                                    <action selector="dismissShow" destination="AgC-eL-Hgc" id="uAN-H0-oh7"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="btnNext" destination="Vft-JF-9BF" id="mma-zU-ZMH"/>
+                        <outlet property="btnPlay" destination="mjN-pi-4O9" id="1XT-kC-xPH"/>
+                        <outlet property="btnPre" destination="0kF-t7-Je8" id="IiJ-IO-01Y"/>
+                        <outlet property="imag" destination="kiq-x7-ggS" id="nDB-hM-WWr"/>
+                        <outlet property="songName" destination="vhG-NC-BTE" id="uTE-ea-vQF"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--频道-->
+        <scene sceneID="ERI-12-otY">
+            <objects>
+                <controller identifier="channel" title="频道" id="sgd-cF-1Gb" customClass="DBFMChannelController" customModule="DBFM_WatchKit_1_Extension">
+                    <items>
+                        <table alignment="left" id="NNr-HY-Uwe">
+                            <items>
+                                <tableRow identifier="channelRow" id="gF6-NP-omB" customClass="DBFMChannelRow" customModule="DBFM_WatchKit_1_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="vgL-fl-kn6">
+                                        <items>
+                                            <label alignment="left" text="Label" id="V9d-1J-7go"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="titleLabel" destination="V9d-1J-7go" id="SC2-RL-M07"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="NNr-HY-Uwe" id="i6A-ii-6lq"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="527" y="506"/>
+        </scene>
+        <!--歌曲-->
+        <scene sceneID="te7-zV-yfA">
+            <objects>
+                <controller identifier="song" title="歌曲" id="qmr-y3-9mE" userLabel="歌曲" customClass="DBFMSongController" customModule="DBFM_WatchKit_1_Extension">
+                    <items>
+                        <table alignment="left" id="7ay-Pd-1sy">
+                            <items>
+                                <tableRow identifier="songRow" id="vr3-Fa-Rtt" customClass="DBFMSongRow" customModule="DBFM_WatchKit_1_Extension">
+                                    <group key="rootItem" width="1" height="37.5" alignment="left" id="DLf-yU-M9T">
+                                        <items>
+                                            <imageView width="36" height="36" alignment="left" verticalAlignment="center" id="gCK-iD-sYT"/>
+                                            <group width="88" alignment="left" layout="vertical" id="1bC-dV-p5q">
+                                                <items>
+                                                    <label alignment="left" text="Label" id="jX4-D8-lRh"/>
+                                                    <label alignment="left" text="Label" id="zMs-ki-UJM">
+                                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="detilLabel" destination="zMs-ki-UJM" id="Y0Q-q3-RdZ"/>
+                                        <outlet property="titleImage" destination="gCK-iD-sYT" id="Dcl-zz-q8I"/>
+                                        <outlet property="titleLabel" destination="jX4-D8-lRh" id="IdI-uz-GV0"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="7ay-Pd-1sy" id="C7s-yC-IgS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="527" y="226"/>
+        </scene>
+    </scenes>
+</document>

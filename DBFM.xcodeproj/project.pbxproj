@@ -12,7 +12,53 @@
 		045A9B481C0721B8002F94CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045A9B461C0721B8002F94CA /* Main.storyboard */; };
 		045A9B4A1C0721B8002F94CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A9B491C0721B8002F94CA /* Assets.xcassets */; };
 		045A9B4D1C0721B8002F94CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045A9B4B1C0721B8002F94CA /* LaunchScreen.storyboard */; };
+		045A9B5B1C0725A7002F94CA /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A9B5A1C0725A7002F94CA /* InterfaceController.swift */; };
+		045A9B5D1C0725A7002F94CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A9B5C1C0725A7002F94CA /* Assets.xcassets */; };
+		045A9B621C0725A7002F94CA /* DBFM WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = 045A9B611C0725A7002F94CA /* DBFM WatchKit 1 App.app */; };
+		045A9B681C0725A7002F94CA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045A9B661C0725A7002F94CA /* Interface.storyboard */; };
+		045A9B6A1C0725A7002F94CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A9B691C0725A7002F94CA /* Assets.xcassets */; };
+		045A9B6E1C0725A8002F94CA /* DBFM WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 045A9B581C0725A7002F94CA /* DBFM WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		045A9B7F1C09CE30002F94CA /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A9B7E1C09CE30002F94CA /* HttpController.swift */; };
+		045A9B811C09D822002F94CA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045A9B801C09D822002F94CA /* Alamofire.framework */; };
+		045A9B831C09D867002F94CA /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045A9B821C09D867002F94CA /* Pods.framework */; };
+		045A9B861C09E85E002F94CA /* DBData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A9B851C09E85E002F94CA /* DBData.swift */; };
+		045A9B881C09EDE9002F94CA /* DBFMChannelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A9B871C09EDE9002F94CA /* DBFMChannelRow.swift */; };
+		045A9B8A1C09EEFD002F94CA /* DBFMChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A9B891C09EEFD002F94CA /* DBFMChannelController.swift */; };
+		045A9B8C1C0A0AFB002F94CA /* DBFMSongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A9B8B1C0A0AFB002F94CA /* DBFMSongController.swift */; };
+		045A9B8E1C0A0BA0002F94CA /* DBFMSongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A9B8D1C0A0BA0002F94CA /* DBFMSongRow.swift */; };
+		D06DB0D447D071BEEF35D3B4 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA26EA16BA300C1169720B9 /* Pods.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		045A9B631C0725A7002F94CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045A9B371C0721B8002F94CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045A9B601C0725A7002F94CA;
+			remoteInfo = "DBFM WatchKit 1 App";
+		};
+		045A9B6C1C0725A8002F94CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 045A9B371C0721B8002F94CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 045A9B571C0725A7002F94CA;
+			remoteInfo = "DBFM WatchKit 1 Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		045A9B751C0725A8002F94CA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				045A9B6E1C0725A8002F94CA /* DBFM WatchKit 1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		045A9B3F1C0721B8002F94CA /* DBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +68,25 @@
 		045A9B491C0721B8002F94CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045A9B4C1C0721B8002F94CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045A9B4E1C0721B8002F94CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045A9B581C0725A7002F94CA /* DBFM WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DBFM WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045A9B5A1C0725A7002F94CA /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		045A9B5C1C0725A7002F94CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045A9B5E1C0725A7002F94CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045A9B611C0725A7002F94CA /* DBFM WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DBFM WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		045A9B671C0725A7002F94CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		045A9B691C0725A7002F94CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045A9B6B1C0725A7002F94CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045A9B7E1C09CE30002F94CA /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+		045A9B801C09D822002F94CA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		045A9B821C09D867002F94CA /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
+		045A9B851C09E85E002F94CA /* DBData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBData.swift; sourceTree = "<group>"; };
+		045A9B871C09EDE9002F94CA /* DBFMChannelRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFMChannelRow.swift; sourceTree = "<group>"; };
+		045A9B891C09EEFD002F94CA /* DBFMChannelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFMChannelController.swift; sourceTree = "<group>"; };
+		045A9B8B1C0A0AFB002F94CA /* DBFMSongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFMSongController.swift; sourceTree = "<group>"; };
+		045A9B8D1C0A0BA0002F94CA /* DBFMSongRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFMSongRow.swift; sourceTree = "<group>"; };
+		1FA26EA16BA300C1169720B9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FC4F3B8C2ACE2F98A97B5C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FB20CEFE171BF8A8EA7923DF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +94,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06DB0D447D071BEEF35D3B4 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045A9B551C0725A7002F94CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045A9B831C09D867002F94CA /* Pods.framework in Frameworks */,
+				045A9B811C09D822002F94CA /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +114,11 @@
 			isa = PBXGroup;
 			children = (
 				045A9B411C0721B8002F94CA /* DBFM */,
+				045A9B591C0725A7002F94CA /* DBFM WatchKit 1 Extension */,
+				045A9B651C0725A7002F94CA /* DBFM WatchKit 1 App */,
 				045A9B401C0721B8002F94CA /* Products */,
+				C25F469E3D0B9089487BE217 /* Pods */,
+				9C20703CEF2562840FC039E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				045A9B3F1C0721B8002F94CA /* DBFM.app */,
+				045A9B581C0725A7002F94CA /* DBFM WatchKit 1 Extension.appex */,
+				045A9B611C0725A7002F94CA /* DBFM WatchKit 1 App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +145,51 @@
 			path = DBFM;
 			sourceTree = "<group>";
 		};
+		045A9B591C0725A7002F94CA /* DBFM WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				045A9B5A1C0725A7002F94CA /* InterfaceController.swift */,
+				045A9B7E1C09CE30002F94CA /* HttpController.swift */,
+				045A9B851C09E85E002F94CA /* DBData.swift */,
+				045A9B871C09EDE9002F94CA /* DBFMChannelRow.swift */,
+				045A9B891C09EEFD002F94CA /* DBFMChannelController.swift */,
+				045A9B8B1C0A0AFB002F94CA /* DBFMSongController.swift */,
+				045A9B8D1C0A0BA0002F94CA /* DBFMSongRow.swift */,
+				045A9B5C1C0725A7002F94CA /* Assets.xcassets */,
+				045A9B5E1C0725A7002F94CA /* Info.plist */,
+			);
+			path = "DBFM WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		045A9B651C0725A7002F94CA /* DBFM WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				045A9B661C0725A7002F94CA /* Interface.storyboard */,
+				045A9B691C0725A7002F94CA /* Assets.xcassets */,
+				045A9B6B1C0725A7002F94CA /* Info.plist */,
+			);
+			path = "DBFM WatchKit 1 App";
+			sourceTree = "<group>";
+		};
+		9C20703CEF2562840FC039E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045A9B821C09D867002F94CA /* Pods.framework */,
+				045A9B801C09D822002F94CA /* Alamofire.framework */,
+				1FA26EA16BA300C1169720B9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C25F469E3D0B9089487BE217 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7FC4F3B8C2ACE2F98A97B5C /* Pods.debug.xcconfig */,
+				FB20CEFE171BF8A8EA7923DF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,18 +197,56 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045A9B511C0721B8002F94CA /* Build configuration list for PBXNativeTarget "DBFM" */;
 			buildPhases = (
+				7372153DA42A785AB12A097C /* Check Pods Manifest.lock */,
 				045A9B3B1C0721B8002F94CA /* Sources */,
 				045A9B3C1C0721B8002F94CA /* Frameworks */,
 				045A9B3D1C0721B8002F94CA /* Resources */,
+				045A9B751C0725A8002F94CA /* Embed App Extensions */,
+				5E483CAF2072A6829F51863A /* Embed Pods Frameworks */,
+				8FB08D0CC78DEA5673764559 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				045A9B6D1C0725A8002F94CA /* PBXTargetDependency */,
 			);
 			name = DBFM;
 			productName = DBFM;
 			productReference = 045A9B3F1C0721B8002F94CA /* DBFM.app */;
 			productType = "com.apple.product-type.application";
+		};
+		045A9B571C0725A7002F94CA /* DBFM WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045A9B721C0725A8002F94CA /* Build configuration list for PBXNativeTarget "DBFM WatchKit 1 Extension" */;
+			buildPhases = (
+				045A9B541C0725A7002F94CA /* Sources */,
+				045A9B551C0725A7002F94CA /* Frameworks */,
+				045A9B561C0725A7002F94CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				045A9B641C0725A7002F94CA /* PBXTargetDependency */,
+			);
+			name = "DBFM WatchKit 1 Extension";
+			productName = "DBFM WatchKit 1 Extension";
+			productReference = 045A9B581C0725A7002F94CA /* DBFM WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		045A9B601C0725A7002F94CA /* DBFM WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 045A9B6F1C0725A8002F94CA /* Build configuration list for PBXNativeTarget "DBFM WatchKit 1 App" */;
+			buildPhases = (
+				045A9B5F1C0725A7002F94CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DBFM WatchKit 1 App";
+			productName = "DBFM WatchKit 1 App";
+			productReference = 045A9B611C0725A7002F94CA /* DBFM WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +259,12 @@
 				ORGANIZATIONNAME = chen;
 				TargetAttributes = {
 					045A9B3E1C0721B8002F94CA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					045A9B571C0725A7002F94CA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					045A9B601C0725A7002F94CA = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
@@ -113,6 +283,8 @@
 			projectRoot = "";
 			targets = (
 				045A9B3E1C0721B8002F94CA /* DBFM */,
+				045A9B571C0725A7002F94CA /* DBFM WatchKit 1 Extension */,
+				045A9B601C0725A7002F94CA /* DBFM WatchKit 1 App */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +300,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		045A9B561C0725A7002F94CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045A9B621C0725A7002F94CA /* DBFM WatchKit 1 App.app in Resources */,
+				045A9B5D1C0725A7002F94CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		045A9B5F1C0725A7002F94CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045A9B6A1C0725A7002F94CA /* Assets.xcassets in Resources */,
+				045A9B681C0725A7002F94CA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E483CAF2072A6829F51863A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7372153DA42A785AB12A097C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FB08D0CC78DEA5673764559 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		045A9B3B1C0721B8002F94CA /* Sources */ = {
@@ -140,7 +378,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		045A9B541C0725A7002F94CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045A9B8A1C09EEFD002F94CA /* DBFMChannelController.swift in Sources */,
+				045A9B8C1C0A0AFB002F94CA /* DBFMSongController.swift in Sources */,
+				045A9B5B1C0725A7002F94CA /* InterfaceController.swift in Sources */,
+				045A9B8E1C0A0BA0002F94CA /* DBFMSongRow.swift in Sources */,
+				045A9B881C09EDE9002F94CA /* DBFMChannelRow.swift in Sources */,
+				045A9B7F1C09CE30002F94CA /* HttpController.swift in Sources */,
+				045A9B861C09E85E002F94CA /* DBData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		045A9B641C0725A7002F94CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045A9B601C0725A7002F94CA /* DBFM WatchKit 1 App */;
+			targetProxy = 045A9B631C0725A7002F94CA /* PBXContainerItemProxy */;
+		};
+		045A9B6D1C0725A8002F94CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 045A9B571C0725A7002F94CA /* DBFM WatchKit 1 Extension */;
+			targetProxy = 045A9B6C1C0725A8002F94CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		045A9B461C0721B8002F94CA /* Main.storyboard */ = {
@@ -157,6 +422,14 @@
 				045A9B4C1C0721B8002F94CA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		045A9B661C0725A7002F94CA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				045A9B671C0725A7002F94CA /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,9 +520,12 @@
 		};
 		045A9B521C0721B8002F94CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7FC4F3B8C2ACE2F98A97B5C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DBFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chen.DBFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,12 +534,75 @@
 		};
 		045A9B531C0721B8002F94CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB20CEFE171BF8A8EA7923DF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DBFM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chen.DBFM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		045A9B701C0725A8002F94CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = DBFM_WatchKit_1_Extension;
+				INFOPLIST_FILE = "DBFM WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = chen.DBFM.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		045A9B711C0725A8002F94CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = DBFM_WatchKit_1_Extension;
+				INFOPLIST_FILE = "DBFM WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = chen.DBFM.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		045A9B731C0725A8002F94CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "DBFM WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.DBFM.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		045A9B741C0725A8002F94CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "DBFM WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chen.DBFM.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -286,6 +625,25 @@
 				045A9B531C0721B8002F94CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045A9B6F1C0725A8002F94CA /* Build configuration list for PBXNativeTarget "DBFM WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045A9B701C0725A8002F94CA /* Debug */,
+				045A9B711C0725A8002F94CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		045A9B721C0725A8002F94CA /* Build configuration list for PBXNativeTarget "DBFM WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045A9B731C0725A8002F94CA /* Debug */,
+				045A9B741C0725A8002F94CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

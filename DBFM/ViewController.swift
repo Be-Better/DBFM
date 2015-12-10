@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  DBFM
 //
-//  Created by 陈长麟 on 15/11/26.
+//  Created by chen on 15/11/26.
 //  Copyright © 2015年 chen. All rights reserved.
 //
 
@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {

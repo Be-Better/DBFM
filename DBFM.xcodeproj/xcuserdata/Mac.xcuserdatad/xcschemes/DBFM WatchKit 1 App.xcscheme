@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0710"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "045A9B601C0725A7002F94CA"
+               BuildableName = "DBFM WatchKit 1 App.app"
+               BlueprintName = "DBFM WatchKit 1 App"
+               ReferencedContainer = "container:DBFM.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "045A9B3E1C0721B8002F94CA"
+               BuildableName = "DBFM.app"
+               BlueprintName = "DBFM"
+               ReferencedContainer = "container:DBFM.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "045A9B571C0725A7002F94CA"
+               BuildableName = "DBFM WatchKit 1 Extension.appex"
+               BlueprintName = "DBFM WatchKit 1 Extension"
+               ReferencedContainer = "container:DBFM.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "045A9B601C0725A7002F94CA"
+            BuildableName = "DBFM WatchKit 1 App.app"
+            BlueprintName = "DBFM WatchKit 1 App"
+            ReferencedContainer = "container:DBFM.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/DBFM">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "045A9B601C0725A7002F94CA"
+            BuildableName = "DBFM WatchKit 1 App.app"
+            BlueprintName = "DBFM WatchKit 1 App"
+            ReferencedContainer = "container:DBFM.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "045A9B601C0725A7002F94CA"
+            BuildableName = "DBFM WatchKit 1 App.app"
+            BlueprintName = "DBFM WatchKit 1 App"
+            ReferencedContainer = "container:DBFM.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/DBFM">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "045A9B601C0725A7002F94CA"
+            BuildableName = "DBFM WatchKit 1 App.app"
+            BlueprintName = "DBFM WatchKit 1 App"
+            ReferencedContainer = "container:DBFM.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "045A9B601C0725A7002F94CA"
+            BuildableName = "DBFM WatchKit 1 App.app"
+            BlueprintName = "DBFM WatchKit 1 App"
+            ReferencedContainer = "container:DBFM.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

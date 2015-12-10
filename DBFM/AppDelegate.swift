@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DBFM
 //
-//  Created by 陈长麟 on 15/11/26.
+//  Created by chen on 15/11/26.
 //  Copyright © 2015年 chen. All rights reserved.
 //
 

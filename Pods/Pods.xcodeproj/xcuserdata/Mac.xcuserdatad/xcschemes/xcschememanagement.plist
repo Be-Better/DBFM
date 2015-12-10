@@ -4,30 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DBFM WatchKit 1 App.xcscheme</key>
+		<key>Alamofire.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>DBFM.xcscheme</key>
+		<key>Pods.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>045A9B3E1C0721B8002F94CA</key>
+		<key>432ECC54282C84882B482CCB4CF227FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>045A9B571C0725A7002F94CA</key>
+		<key>8972D1B3785A7CF11C5D31FB702BCB0E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>045A9B601C0725A7002F94CA</key>
+		<key>EA5783E1E72DAF034F5567D9F2721A2E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
